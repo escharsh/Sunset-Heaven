@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunset Haven Hotel | Your Peaceful Escape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Sunset Haven</div>
+      <ul id="nav-links">
+        <li class="active" data-section="home"><a href="#home">Home</a></li>
+        <li data-section="facilities"><a href="#facilities">Facilities</a></li>
+        <li data-section="rooms"><a href="#rooms">Rooms</a></li>
+        <li data-section="booking"><a href="#booking">Booking</a></li>
+        <li data-section="contact"><a href="#contact">Contact</a></li>
+        <div id="nav-indicator"></div>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="active">
+      <div class="banner" role="img" aria-label="Luxury hotel infinity pool overlooking the ocean at sunset">
+        <div class="banner-bg"></div>
+        <div class="banner-content">
+          <h1>Welcome to Sunset Haven</h1>
+          <p class="anim-on-scroll" style="transition-delay: 0.8s;">Your peaceful escape by the sea awaits.</p>
+        </div>
+        <a href="#about-us" class="scroll-down-indicator" aria-label="Scroll down">
+          <div class="mouse"><span></span></div>
+        </a>
+      </div>
+      <div class="container" id="about-us">
+        <div class="home-about-section">
+          <div class="home-about-image anim-slide-in-left">
+            <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=1932&auto=format&fit=crop" alt="Elegant hotel lobby with modern decor" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=Lobby';">
+          </div>
+          <div class="home-about-text anim-slide-in-right">
+            <h2>Experience Unmatched Luxury</h2>
+            <p>At Sunset Haven, we offer luxurious stays with stunning ocean views, exceptional services, and warm hospitality. Recharge and relax in our elegant rooms with world-class amenities tailored for your comfort.</p>
+            <button class="cta-button" data-section-target="rooms">Explore Our Rooms</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="facilities">
+      <div class="container">
+        <h2 class="anim-on-scroll">Our Facilities & Services</h2>
+        <div class="grid-container stagger-children">
+          <article class="card anim-on-scroll"><div class="card-image"><img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop" alt="Swimming Pool" onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Pool';"></div><div class="card-content"><h3>Swimming Pool</h3><p class="card-description">Relax and recharge at our sparkling swimming pool, ideal for a refreshing dip.</p></div></article>
+          <article class="card anim-on-scroll"><div class="card-image"><img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=2070&auto=format&fit=crop" alt="Spa & Wellness" onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Spa';"></div><div class="card-content"><h3>Spa & Wellness</h3><p class="card-description">Indulge in our rejuvenating spa treatments designed to calm your mind and body.</p></div></article>
+          <article class="card anim-on-scroll"><div class="card-image"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop" alt="Fine Dining Restaurant" onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Dining';"></div><div class="card-content"><h3>Fine Dining</h3><p class="card-description">Experience gourmet cuisine at our in-house restaurant with panoramic ocean views.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms">
+      <div class="container">
+        <h2 class="anim-on-scroll">Choose Your Perfect Room</h2>
+        <div class="grid-container stagger-children">
+          <article class="card anim-on-scroll"><div class="card-image"><img src="https://images.unsplash.com/photo-1590490359854-dfba59585b73?q=80&w=1998&auto=format&fit=crop" alt="Standard Room" onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Standard+Room';"></div><div class="card-content"><h3>Standard Room</h3><p class="card-description">A cozy room perfect for solo travelers or couples, with all essential amenities.</p><ul class="amenities"><li>Wi-Fi</li><li>AC</li><li>TV</li></ul><div class="room-price">$120 / night</div></div></article>
+          <article class="card anim-on-scroll"><div class="card-image"><img src="https://images.unsplash.com/photo-1586798436726-a193656111a4?q=80&w=2070&auto=format&fit=crop" alt="Deluxe Room" onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Deluxe+Room';"></div><div class="card-content"><h3>Deluxe Room</h3><p class="card-description">A spacious room with a king-sized bed, premium linens, and a beautiful ocean view.</p><ul class="amenities"><li>Wi-Fi</li><li>Mini Bar</li><li>Balcony</li></ul><div class="room-price">$180 / night</div></div></article>
+          <article class="card anim-on-scroll"><div class="card-image"><img src="https://images.unsplash.com/photo-1560185893-a5536c80e648?q=80&w=2070&auto=format&fit=crop" alt="Luxury Suite" onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Luxury+Suite';"></div><div class="card-content"><h3>Luxury Suite</h3><p class="card-description">Our premium suite offers a separate living area, luxurious furnishings, and a private jacuzzi.</p><ul class="amenities"><li>Wi-Fi</li><li>Jacuzzi</li><li>Concierge</li></ul><div class="room-price">$300 / night</div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="anim-on-scroll">Get In Touch</h2>
+        <p class="contact-subtitle anim-on-scroll">We're here to help. Reach out to us with any questions or inquiries.</p>
+        <div class="contact-wrapper anim-on-scroll">
+          
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <ul class="contact-details-list">
+              <li class="contact-detail-item">
+                <span class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C7.589 2 4 5.589 4 10c0 4.411 8 12 8 12s8-7.589 8-12c0-4.411-3.589-8-8-8zm0 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4z"></path></svg>
+                </span>
+                <div>
+                  <strong>Address</strong>
+                  <p>123 Ocean Drive, Paradise Bay</p>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <span class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.393c-.572-.292-1.121-.614-1.644-.962a12.22 12.22 0 0 1-2.43-2.43c-.348-.523-.67-1.072-.962-1.644l2.394-2.394a.999.999 0 0 0 .043-1.391L5.353 3.512a1 1 0 0 0-1.39-.087L2.257 4.962a1 1 0 0 0-.224.945c.427 1.635 1.436 3.82 3.134 5.518s3.883 2.707 5.518 3.134a1 1 0 0 0 .945-.224l1.537-1.706a1 1 0 0 0-.087-1.39z"></path></svg>
+                </span>
+                <div>
+                  <strong>Phone</strong>
+                  <p>(555) 123-4567</p>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <span class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.223V6h16zM4 18V9.044l7.386 5.762a.998.998 0 0 0 1.228 0L20 9.044 20 18H4z"></path></svg>
+                </span>
+                <div>
+                  <strong>Email</strong>
+                  <p><a href="mailto:info@sunsethaven.com">info@sunsethaven.com</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-container">
+            <h3>Send us a Message</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <input type="text" id="contact-name" name="name" required placeholder=" ">
+                <label for="contact-name">Your Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="contact-email" name="email" required placeholder=" ">
+                <label for="contact-email">Your Email</label>
+              </div>
+              <div class="form-group">
+                <textarea id="contact-message" name="message" rows="5" required placeholder=" "></textarea>
+                <label for="contact-message">Your Message</label>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+        <div class="contact-map anim-on-scroll">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019566203903!2d144.9537353159042!3d-37.81720974201702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1625028976868!5m2!1sen!2sau" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+            title="Hotel Location Map">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <div id="booking-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" aria-label="Close booking form">&times;</button>
+      <div id="booking-form-container">
+        <form id="booking-form" novalidate>
+          <h2>Book Your Stay</h2>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="--progress-width: 0%;"></div>
+            <div class="progress-step active" data-title="Dates"></div>
+            <div class="progress-step" data-title="Room"></div>
+            <div class="progress-step" data-title="Details"></div>
+          </div>
+          <div class="form-step active">
+            <div class="step-group"><div class="form-group"><input type="date" id="checkin" required placeholder=" "><label for="checkin">Check-in Date *</label><div class="error-message" id="checkin-error"></div></div><div class="form-group"><input type="date" id="checkout" required placeholder=" "><label for="checkout">Check-out Date *</label><div class="error-message" id="checkout-error"></div></div></div>
+            <div class="step-group"><div class="form-group"><input type="number" id="guests" min="1" max="10" required value="1" placeholder=" "><label for="guests">Guests *</label><div class="error-message" id="guests-error"></div></div><div class="form-group"><input type="number" id="rooms-number" name="rooms-number" min="1" max="5" required value="1" placeholder=" "><label for="rooms-number">Rooms *</label><div class="error-message" id="rooms-number-error"></div></div></div>
+            <div class="btn-container"><button type="button" class="btn btn-next">Next &rarr;</button></div>
+          </div>
+          <div class="form-step"><p class="step-prompt">Please select your preferred room type.</p><div class="room-selection-container"></div><input type="hidden" id="room-type" name="room-type" required><div class="error-message" id="room-type-error"></div><div class="btn-container"><button type="button" class="btn btn-prev">&larr; Previous</button><button type="button" class="btn btn-next">Next &rarr;</button></div></div>
+          <div class="form-step"><div class="step-group"><div class="form-group"><input type="text" id="fullname" name="fullname" required placeholder=" "><label for="fullname">Full Name *</label><div class="error-message" id="fullname-error"></div></div><div class="form-group"><input type="email" id="email" name="email" required placeholder=" "><label for="email">Email *</label><div class="error-message" id="email-error"></div></div></div><div class="step-group"><div class="form-group"><input type="tel" id="phone" name="phone" required placeholder=" "><label for="phone">Phone *</label><div class="error-message" id="phone-error"></div></div><div class="form-group"><input type="number" id="age" name="age" min="18" required placeholder=" "><label for="age">Age *</label><div class="error-message" id="age-error"></div></div></div><div class="btn-container"><button type="button" class="btn btn-prev">&larr; Previous</button><button type="submit" class="btn">Confirm Booking</button></div></div>
+        </form>
+      </div>
+      <div id="confirmation-container" style="display: none;">
+          <h3>Booking Confirmed!</h3>
+          <p>Thank you. A receipt will be sent to your email shortly.</p>
+          <div id="booking-receipt">
+            <div class="receipt-item"><strong>Booking ID:</strong> <span id="receipt-id"></span></div>
+            <div class="receipt-item"><strong>Name:</strong> <span id="receipt-name"></span></div>
+            <div class="receipt-item"><strong>Total Price:</strong> <span id="receipt-total"></span></div>
+          </div>
+          <div class="btn-container confirmation-btns">
+            <button type="button" class="btn btn-new-booking">Book Another Stay</button>
+            <button type="button" class="btn btn-close-modal">Close</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox"><span class="lightbox-close">&times;</span><img class="lightbox-content" id="lightbox-img" alt="Enlarged view"></div>
+
+  <button class="assistant-button" id="assistant-btn" aria-label="Open AI assistant">💬</button>
+  <div class="chat-window" id="chat-window" role="dialog" aria-modal="true">
+      <div class="chat-header">
+          <span>AI Assistant</span>
+          <button class="chat-close-btn" id="chat-close-btn" aria-label="Close chat">&times;</button>
+      </div>
+      <div class="chat-messages" id="chat-messages" role="log">
+          <div class="chat-message assistant">
+              Hello! I'm the Sunset Haven assistant. How can I help you today?
+          </div>
+      </div>
+      <div class="chat-suggestions" id="chat-suggestions">
+          <button class="suggestion-chip">Room Prices</button>
+          <button class="suggestion-chip">Spa Services</button>
+          <button class="suggestion-chip">Check-in Time</button>
+      </div>
+      <div class="chat-input-area">
+          <input type="text" id="chat-input" placeholder="Ask about rooms, facilities...">
+          <button id="chat-send-btn" aria-label="Send Message">➢</button>
+      </div>
+  </div>
+
+  <footer><div class="container"><p>&copy; 2025 Sunset Haven Hotel. All Rights Reserved.<br>Your peaceful escape by the sea awaits.</p></div></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

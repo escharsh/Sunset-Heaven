@@ -2,10 +2,6 @@
 
 This is a complete, responsive, and interactive website for "Sunset Haven," a fictional luxury hotel. The project is built using HTML, CSS, and JavaScript, and it showcases a modern design with a variety of features to provide a comprehensive user experience for potential hotel guests.
 
-## ✨ Live Demo
-
-*[You can add a link to your live demo here once it's deployed]*
-
 -----
 
 ## 📜 Project Overview
